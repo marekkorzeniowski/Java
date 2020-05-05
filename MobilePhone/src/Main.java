@@ -64,7 +64,7 @@ public class Main {
     }
 
     private static void addNewContact() {
-        System.out.println("Entera name: ");
+        System.out.println("Enter a name: ");
         String name = scanner.nextLine();
 
         System.out.println("enter a number: ");
@@ -81,7 +81,7 @@ public class Main {
     }
 
     private static void updateContact() {
-        System.out.println("Entera name: ");
+        System.out.println("Enter a name: ");
         String name = scanner.nextLine();
 
         Contact existingRecord = mobilePhone.queryContact(name);
